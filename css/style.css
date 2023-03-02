@@ -1040,7 +1040,7 @@ section.footer .copyright p a:hover {
 /*-- responsive design --*/
 @media (max-width:1440px) {
     div#slideshow-banner {
-        height: 700px;
+        height: 760px;
     }
 	.tpl6 .dmbutton {
 	margin: 88px 5px 20px 5px;	
@@ -2066,6 +2066,10 @@ section.contact-us .contact-info p.addr {
 }
 
 @media (max-width:384px) {
+.navbar-inverse {
+        background-color:transparent;
+        border-color:transparent;
+}
 div#slideshow-banner {
     height: 250px;
 }
